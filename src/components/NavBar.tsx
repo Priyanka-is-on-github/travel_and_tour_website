@@ -27,12 +27,12 @@ function NavBar() {
   return (
     <Box
       sx={{
-        position: "static",
+        position: "fixed", 
         backgroundColor: "#fff",
         width:"100%",
-        
+        zIndex:"100",
         display: "flex",
-       
+       bgcolor:"#D2E3C8",
         boxShadow: "0 4px 6px 2px rgba(0,0,0,0.3)",
       }}
     >
@@ -57,7 +57,7 @@ function NavBar() {
         <Box sx={{py:{
           xs:"15px"
         }}}>
-          <Typography variant="h4" component="h2" fontWeight={600}>
+          <Typography variant="h4" component="h2" fontWeight={600} color="rgb(31, 31, 31)">
             PSTravel
           </Typography>
         </Box>

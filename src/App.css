@@ -1,6 +1,12 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+  
+
+
 
 
 *{
@@ -25,8 +31,96 @@ a{
   
 }
 .MuiListItemText-root{ 
-   
+   font-weight: bold;
     color:gray;  
    
 }
 
+#head #heading{
+    font-family: 'Poppins', sans-serif; 
+    color: #fff;
+    font-weight: 600; 
+
+    
+    
+}
+#head #heading1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900; 
+    
+    color: #fff;
+    
+    
+}
+#detail .inpt{
+    width:90%;
+    outline:none;
+    padding: 12px;
+    padding-left: 15px;
+    border-radius: 20px;
+    background-color: #dae2dfd9;
+    border:none;
+    font-weight: bold;
+    margin-left: 10px;
+    color: rgb(60, 59, 59);
+    
+     
+}
+#detail .inptrange{
+    padding: 0  10px;
+   
+
+}
+.para{
+    padding: 15px;
+    font-weight: bold;
+    color: gray;
+    white-space: nowrap;
+}
+#heading5{
+    color: rgb(68, 67, 67);
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.hrline{
+    height: 6px;
+    width: 10%;
+    background-color: #1B4242;margin-left: 9.5%;
+    margin-bottom: 1rem;
+}
+#sendbtn{
+    background:linear-gradient(to right, #9EC8B9,#267d7d ); 
+
+}
+#email{
+    width:90%;
+    outline:none;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    border:4px solid rgb(204, 201, 201);
+    font-weight: bold;
+    color: #000;
+    
+}
+#email::placeholder{
+    color: rgb(204, 201, 201);
+}
+ul#info{
+    list-style-image: url("right-arrow-svgrepo-com.svg");
+   
+    
+    
+
+}
+ul#info li{
+    padding-bottom: 0.5rem;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color:#267d7d;
+
+}

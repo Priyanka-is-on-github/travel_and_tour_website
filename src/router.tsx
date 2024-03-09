@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 import Error from './pages/Error'
 
 
-const router = createBrowserRouter([
+const router = createBrowserRouter([ 
     {
         path:'/',
         element:<Home/>,

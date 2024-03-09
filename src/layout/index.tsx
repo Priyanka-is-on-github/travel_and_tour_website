@@ -1,8 +1,9 @@
 import { Box } from '@mui/material'
 import React, { Children, ReactNode } from 'react'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
-function Layout({children}:{children:ReactNode}) { 
+function Layout({children}:{children:ReactNode}) {  
   return (
    <Box sx={{
 
@@ -13,8 +14,8 @@ function Layout({children}:{children:ReactNode}) {
 
    }}>
      <NavBar/>
-    <Box>{children}</Box>
-    {/* <Footer/>  */}
+    <Box>{children}</Box> 
+    <Footer/> 
 
     
    </Box>
